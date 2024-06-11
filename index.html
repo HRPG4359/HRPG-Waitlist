@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Policy Guru Waitlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HR Policy Guru</h1>
+        <p>Simplifying and streamlining HR management with AI-powered tools.</p>
+        <form id="waitlistForm">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Join Waitlist</button>
+        </form>
+        <h2>Waitlist Subscribers</h2>
+        <ul id="waitlistSubscribers" class="hidden"></ul> <!-- Add class hidden here -->
+    </div>
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+    <!-- Your custom script -->
+    <script src="app.js"></script>
+</body>
+</html>
